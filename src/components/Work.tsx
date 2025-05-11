@@ -27,12 +27,12 @@ const projects = [
 ];
 
 const Work = () => {
-  const scrollRef = useRef(null);
+  const scrollRef = useRef<HTMLDivElement | null>(null);
   const [canScrollLeft, setCanScrollLeft] = useState(false);
   const [canScrollRight, setCanScrollRight] = useState(true);
 
-  const scroll = (direction) => {
-    const { current } = scrollRef;
+  const scroll = (direction: "left" | "right") => {
+    const current = scrollRef.current;
     const scrollAmount = 500;
 
     if (!current) return;
@@ -50,8 +50,9 @@ const Work = () => {
 
   useEffect(() => {
     const checkScroll = () => {
-      if (!scrollRef.current) return;
-      const { scrollLeft, scrollWidth, clientWidth } = scrollRef.current;
+      const el = scrollRef.current;
+      if (!el) return;
+      const { scrollLeft, scrollWidth, clientWidth } = el;
       setCanScrollLeft(scrollLeft > 0);
       setCanScrollRight(scrollLeft + clientWidth < scrollWidth - 5);
     };
