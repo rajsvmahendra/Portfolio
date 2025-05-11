@@ -87,24 +87,25 @@ const WhatIDo = () => {
             <div className="what-corner"></div>
 
             <div className="what-content-in">
-              <h3>DEVELOP</h3>
+              <h3>STUDYING</h3>
               <h4>Description</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae.
+              I am currently pursuing a Bachelor of Technology (B.Tech) 
+              in Computer Science and Engineering (CSE) 
+              at Lovely Professional University (LPU)
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">
+                <div className="what-tags">Python</div>
+                <div className="what-tags">HTML</div>
+                <div className="what-tags">CSS</div>
                 <div className="what-tags">JavaScript</div>
-                <div className="what-tags">TypeScript</div>
-                <div className="what-tags">Three.js</div>
-                <div className="what-tags">React</div>
-                <div className="what-tags">Css</div>
-                <div className="what-tags">Node.js</div>
-                <div className="what-tags">Next.js</div>
+                <div className="what-tags">C</div>
+                <div className="what-tags">C++</div>
+                <div className="what-tags">DSA</div>
+                <div className="what-tags">MySQL</div>
                 <div className="what-tags">Express.js</div>
                 <div className="what-tags">PHP</div>
-                <div className="what-tags">MySql</div>
               </div>
               <div className="what-arrow"></div>
             </div>
@@ -131,8 +132,10 @@ const WhatIDo = () => {
               <h3>DESIGN</h3>
               <h4>Description</h4>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-                quia aliquid laboriosam ducimus sit molestiae
+              I am passionate about design and the art of creating visually appealing
+              and functional solutions. Whether it's 3D modeling, animation, 
+              or user interface design, I aim to craft designs that are not only 
+              aesthetically pleasing but also intuitive and user-friendly.
               </p>
               <h5>Skillset & tools</h5>
               <div className="what-content-flex">

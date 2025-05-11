@@ -151,6 +151,7 @@ const TechStack = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+
   const materials = useMemo(() => {
     return textures.map(
       (texture) =>
@@ -168,7 +169,10 @@ const TechStack = () => {
 
   return (
     <div className="techstack">
-      <h2> My Techstack</h2>
+      {/* Heading ABOVE canvas */}
+      <h2>
+        My <span>Techstack</span>
+      </h2>
 
       <Canvas
         shadows

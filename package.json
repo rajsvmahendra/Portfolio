@@ -1,5 +1,5 @@
 {
-  "name": "moncy-portfolio",
+  "name": "rajsv-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@gsap/react": "^2.1.1",
+    "@gsap/react": "^3.12.2",
     "@react-three/cannon": "^6.6.0",
     "@react-three/drei": "^9.120.4",
     "@react-three/fiber": "^8.17.10",
